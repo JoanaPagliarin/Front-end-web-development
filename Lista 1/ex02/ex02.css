@@ -1,0 +1,36 @@
+body {
+    background: url(background.webp)
+}
+
+.titulo-principal {
+    font-size: 1.5em;
+    color: black;
+    letter-spacing: 0.5em;
+    font-weight: bold;
+    margin-left: 0.5em;
+    font-family: GEORGIA;
+}
+
+.titulo {
+    font-size: 1em;
+    color: black;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+
+.texto {
+    font-size: 0.8em;
+    color: black;
+    letter-spacing: 0.1em;
+    text-align: justify;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#fraseCabeçalho {
+    font-size: 1.8em;
+    color: white;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
