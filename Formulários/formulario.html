@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+
+        #botao
+        {
+            color:blue;
+            font-size: 1.5em;
+            font-family: georgia;
+        }
+
+    </style>
+
+</head>
+<body>
+    <form action="/fileback">
+        <label for="fname">primeiro nome: </label><br>
+        <input type="text" id="fname" name="fname" value="joana"><br>
+        <p>Regiões que já visitou:</p>
+        <INPUT TYPE="checkbox" NAME="NO" VALUE="norte"> 
+        NO
+        <INPUT TYPE="checkbox" NAME="NE" VALUE="nordeste"> NE
+        <INPUT TYPE="checkbox" NAME="SUL" VALUE="sul">
+        SUL
+        <br>
+        <p>Estado que nasceu: </p>
+        <input type="radio" name="SC" value=sc>SC 
+        <input type="radio" name="PR" value=sc>PR
+        <input type="radio" name="RS" value=sc>RS
+        <br><br>
+        <button><span id="botao">Continuar</span></button><br><br>
+        <input type="submit" value="continuar">    
+    </form>
+
+</body>
+</html>
