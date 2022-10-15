@@ -1,13 +1,18 @@
-.cabeçalho{
+.img-cabeçalho{
     margin-left: 0;
     width: 200px;
 }
-.pagina-inicial{
-    max-width:1350px;
-    width: auto;
+.img-principal{
+    width: 100%;
     height: auto;
 }
-.menu{
+
+/* ID QUE CENTRALIZA IMAGEM */
+#container {
+    display: flex;
+    justify-content: center;
+}
+.txt-menu{
     text-align: right;
     font-family: georgia;
     color:brown;
@@ -17,7 +22,7 @@
     font-size: 1.2em; 
     text-decoration: none;
 }
-#sobreBiopark{
+#txt-sobreBiopark{
     text-align: left;
     font-family: georgia;
     color: brown;

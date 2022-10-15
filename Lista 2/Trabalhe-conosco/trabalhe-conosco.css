@@ -1,0 +1,54 @@
+.cabeçalho {
+    margin-left: 0;
+    width: 200px;
+}
+.imagem{ 
+    width: 100%;
+    height: auto;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#container figcaption {
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    text-shadow: 0px 0px 10px green;
+}
+
+.titulo-formulario{
+    text-align: left;
+    font-family: georgia;
+    color:black;
+    margin-left: 1.5em;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 15px green; 
+}
+
+.subtitulo-formulario
+{
+    text-align: left;
+    font-family: georgia;
+    color:black;
+    margin-left: 2em;
+    font-size: 0.8em;
+    text-shadow: 0px 0px 15px green; 
+    line-height: 2em;
+}
+
+#botao
+{
+    text-align: center;
+    font-family: georgia;
+    color:black;
+    font-size: 1em;
+    text-shadow: 0px 0px 15px green; 
+    line-height: 1.5em;
+}
+
+
+

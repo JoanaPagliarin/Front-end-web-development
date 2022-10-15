@@ -1,0 +1,64 @@
+<!DOCtype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhe conosco</title>
+    <link rel="stylesheet" href="trabalhe-conosco.css">
+    <link rel="shortcut icon" href="pagina-inicial.ico">
+</head>
+<body>
+    <!-- IMAGEM QUE DIRECIONA PARA HOME -->
+    <a href="../Pagina-inicial/pagina-inicial.html" target="_blank"><img class="cabeçalho" src="cabeçalho-left.png" /></a><br>
+
+    <!-- LINHA HORIZONTAL -->
+    <hr width="100%" align="center" color=brown no shade />
+
+    <!-- COLOCANDO TEXTO EM CIMA DA IMAGEM --> 
+    <figure id="container">
+        <img class="imagem" src="trabalhe-conosco.jpg" />  
+        <figcaption>Trabalhe conosco</figcaption>
+    </figure>
+    <hr width="100%" align="center" color=brown no shade />
+
+
+    <!-- FAZENDO FORMULÁRIO -->
+    <p class="titulo-formulario">Preencha o formulário:</p>
+    <form  class="subtitulo-formulario" action="/fileback">
+
+        <!-- RECEBE NOME -->
+        <label for="fullname">Nome completo (letras maiúsculas): </label><br>
+        <input type="text" onkeypress="return event.charCode >= 65 && event.charCode <= 90" id="fullname" name="fullname" value="">
+        <br><br>
+
+        <!-- RECEBE IDADE -->
+        <label for="age">Idade: </label><br>
+        <input type="text" onkeypress="return event.charCode >= 48 && event.charCode <= 57" id="age" name="age" value="" >
+        <br><br>
+
+        <!-- RECEBE EXPERIÊNCIA PROFISSIONAL -->
+        <label for="job">Número de empresas que já trabalhou efetivamente: </label><br>
+        <input type="number" id="job" name="job" value=""><br><br>
+
+        <!-- RECEBE CNH -->
+        Carteira de Habilitação:
+        <input type="checkbox" name="A" value="">A &nbsp
+        <input type="checkbox" name="B" value="">B &nbsp 
+        <input type="checkbox" name="C" value="">C &nbsp
+        <input type="checkbox" name="D" value="">D &nbsp
+        <input type="checkbox" name="E" value="">E &nbsp
+        <br><br>
+            
+        <!-- RECEBE SITUAÇÃO -->
+        Atualmente está:
+        <input type="radio" name="no-job" value="">Desempregado
+        <input type="radio" name="job" value="">Efetivado em outra empresa
+        <input type="radio" name="freela" value="">Atuando como <i>freelancer</i> 
+        <br><br>
+
+        <button><span id="botao">Enviar</span></button>
+    </form>
+
+</body>
+</html>
