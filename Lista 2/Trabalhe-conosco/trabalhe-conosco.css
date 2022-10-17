@@ -50,5 +50,14 @@
     line-height: 1.5em;
 }
 
-
+#mensagemErro
+{
+    text-align: left;
+    font-family: georgia;
+    color:black;
+    margin-left: 2em;
+    font-size: 0.4em;
+    text-shadow: 0px 0px 15px red; 
+    line-height: 2em;
+}
 
